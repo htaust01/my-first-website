@@ -1,0 +1,72 @@
+
+
+
+.pagebox{
+   width: 1000px;
+   height: 1200px;
+   background-color: black;
+   color: white;
+   margin: 0 auto;
+}
+
+h1 {
+   width: 400px;
+   font-family: 'Orbitron';
+   margin:1em auto 0;
+   text-align: center;
+}
+
+h2 {
+   font-family: 'Orbitron';
+   padding: 0 30px;
+}
+
+fieldset {
+   width: 200px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 20px auto;
+}
+
+p {
+   padding: 0 60px;
+   text-align: justify;
+}
+
+textarea {
+   height: 3em;
+   width: 150px;
+}
+
+.pic {
+   padding: 0 200px 10px;
+}
+
+.navbar {
+   display: flex;
+   height: 40px;
+   justify-content: space-around;
+   align-items: center;
+   border-bottom: 2px solid white;
+}
+
+a {
+   color: white;
+   text-decoration: none;
+}
+
+.thelinks {
+   width: 240px;
+   margin: 0 auto;
+}
+
+.visiblefaces {
+   display: flex;
+   justify-content: space-around;
+}
+
+.nonvisiblefaces {
+   display: flex;
+   justify-content: space-around;
+}

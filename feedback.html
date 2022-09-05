@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Feedback</title>
+      <link rel="stylesheet" href="layout.css">
+   </head>
+
+   <body>
+      <div class="pagebox">
+
+         <div class="navbar">
+            <span class="home"><a href="home.html">Home</a></span>
+            <span class="feedback"><a href="feedback.html">Feedback</a></span>
+            <span class="links"><a href="links.html">Links</a></span>
+            <span class="moves"><a href="moves.html">Moves</a></span>
+         </div>
+
+         <form action="/form-handling-url" method="post">
+            <fieldset class="box">
+               <legend class="lborder">Feedback</legend>
+
+               <div class="single">
+                  <label for="firstName">First name:</label><br>
+                  <input type="text" id="firstName" name="first_name">
+               </div><br>
+
+               <div class="single">
+                  <label for="lastName">Last name:</label><br>
+                  <input type="text" id="lastName" name="last_name">
+               </div><br>
+
+               <div class="double">
+                  <label for="helpful">Check if informative:</label>
+                  <input type="checkbox" id="helpful" name="helpful">
+               </div><br>
+
+               <div class="single2">
+                  <label for="comments">Comments:</label><br>
+                  <textarea id="comments" name="comments"></textarea>
+               </div><br>
+
+               <div class="single">
+                  <button type="submit">Submit</button>
+               </div>
+            </fieldset>
+         </form>
+
+
+      </div>
+   </body>
+
+</html>
